@@ -1,0 +1,26 @@
+{
+  "name": "zhuwenlong.com",
+  "version": "0.0.1",
+  "description": "bulit your blog with node.js",
+  "main": "app.js",
+  "dependencies": {
+    "mongodb": "^1.4.2",
+    "mblog": "0.0.2",
+    "node-markdown": "^0.1.1"
+  },
+  "keywords": [
+    "blog",
+    "nodejs"
+  ],
+  "author": "Mofei Zhu <hello@zhuwenlong.com>",
+  "engines": {
+    "node": ">= 0.10.26"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.4",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-sass": "^0.7.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-contrib-jshint": "^0.10.0"
+  }
+}

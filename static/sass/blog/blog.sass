@@ -1,0 +1,110 @@
+@import "../common.sass"
+
+$width: 1020px
+
+.blogContent
+	width: $width
+	margin: 0 auto
+	position: relative
+
+.blogNav
+	position: fixed
+	top: 2.5em
+	bottom: 5em
+	width: 230px
+	background: rgba(00,00,00,0.5)
+	ul
+		padding: 0
+
+		li
+			list-style: none
+			margin: 0
+			padding: 0
+			a
+				color: #fff
+				line-height: 1.5em
+				text-decoration: none
+				text-indent: 1em
+				display: inline-block
+				width: 100%
+				padding: 5px 0
+				&:hover,&.active
+					background: black
+			
+
+.blogList
+	margin-top: 2.5em
+	margin-left: 250px
+	margin-bottom: 5em
+	background: rgba(00,000,00,0.5)
+	.blogListItem
+		color: #fff
+		text-decoration: none
+		display: block
+		border-bottom: 1px dotted #666
+		padding: 10px 0
+		margin: 0 15px
+
+	header
+		font-size: 2em	
+		margin: 3px 0
+		overflow: hidden
+	time
+		position: relative
+		float: left
+		.blogyear
+			position: absolute
+			top: 0.3em
+			width: 45px
+			text-align: right
+			font-size: 0.45em
+			color: #ccc
+		.blogmonth
+			position: absolute 
+			top: 1.3em
+			width: 45px
+			text-align: right
+			font-size: 0.45em
+			color: #ccc
+		.blogday
+			width: 38px
+			display: inline-block
+			margin-left: 48px
+			color: #ccc
+	h2
+		float: left
+		color: #fff
+		font-size: 1em
+		margin: 0
+		padding: 0
+		margin-left: 10px
+
+	.blogListContent
+		margin-left: 6em
+		text-indent: 2em
+		font-size: 14px
+		color: #ccc
+		padding: 3px 0
+
+	footer
+		overflow: hidden
+		span
+			float: left
+			margin-left: 15px
+	.noarticle
+		text-align: center
+		padding: 20px 0
+		color: #fff
+
+.blogpages
+	padding: 5px
+	text-align: right
+	a
+		display: inline-block
+		padding: 3px 5px
+		margin: 0 3px
+		color: #eee
+		text-decoration: none
+	a.blogpagescurrent
+		background: rgba(0,0,0,0.3)
+		color: #999

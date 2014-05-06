@@ -1,0 +1,176 @@
+body {
+  background: url("/img/background.jpg") center fixed;
+  background-size: cover; }
+
+.m_followlink {
+  background: rgba(0, 0, 0, 0.6);
+  height: 2em;
+  line-height: 2em;
+  color: white;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  font-size: 12px;
+  z-index: 1000; }
+  .m_followlink span, .m_followlink a {
+    margin-right: 10px; }
+  .m_followlink a {
+    color: white;
+    text-decoration: none; }
+
+.main_section {
+  overflow: hidden; }
+
+.main_filter {
+  background: url("/img/filter.png");
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+.m_nav {
+  position: fixed;
+  width: 100%;
+  height: 4em;
+  line-height: 4em;
+  background: rgba(0, 0, 0, 0.6);
+  bottom: 0;
+  left: 0;
+  color: white; }
+  .m_nav .m_logo {
+    float: left;
+    margin-left: 20px; }
+    @media (max-width: 560px) {
+      .m_nav .m_logo {
+        display: none; } }
+    .m_nav .m_logo .m_logo_address {
+      font-size: 1.5em;
+      height: 1em;
+      line-height: 1em;
+      margin: 8px 0; }
+    .m_nav .m_logo .m_logo_text {
+      line-height: 1em;
+      height: 1em; }
+  .m_nav .m_navlist {
+    float: right; }
+    @media (max-width: 560px) {
+      .m_nav .m_navlist {
+        float: none;
+        text-align: center; } }
+    .m_nav .m_navlist a {
+      display: inline-block;
+      color: white;
+      height: 1.2em;
+      line-height: 1.2em;
+      padding: 5px 8px;
+      border-radius: 3px;
+      font-size: 1em;
+      text-decoration: none;
+      margin-right: 10px; }
+    .m_nav .m_navlist a.active, .m_nav .m_navlist a:hover {
+      background: white;
+      color: #333333; }
+
+.blogContent {
+  width: 1020px;
+  margin: 0 auto;
+  position: relative; }
+
+.blogNav {
+  position: fixed;
+  top: 2.5em;
+  bottom: 5em;
+  width: 230px;
+  background: rgba(0, 0, 0, 0.5); }
+  .blogNav ul {
+    padding: 0; }
+    .blogNav ul li {
+      list-style: none;
+      margin: 0;
+      padding: 0; }
+      .blogNav ul li a {
+        color: white;
+        line-height: 1.5em;
+        text-decoration: none;
+        text-indent: 1em;
+        display: inline-block;
+        width: 100%;
+        padding: 5px 0; }
+        .blogNav ul li a:hover, .blogNav ul li a.active {
+          background: black; }
+
+.blogList {
+  margin-top: 2.5em;
+  margin-left: 250px;
+  margin-bottom: 5em;
+  background: rgba(0, 0, 0, 0.5); }
+  .blogList .blogListItem {
+    color: white;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px dotted #666666;
+    padding: 10px 0;
+    margin: 0 15px; }
+  .blogList header {
+    font-size: 2em;
+    margin: 3px 0;
+    overflow: hidden; }
+  .blogList time {
+    position: relative;
+    float: left; }
+    .blogList time .blogyear {
+      position: absolute;
+      top: 0.3em;
+      width: 45px;
+      text-align: right;
+      font-size: 0.45em;
+      color: #cccccc; }
+    .blogList time .blogmonth {
+      position: absolute;
+      top: 1.3em;
+      width: 45px;
+      text-align: right;
+      font-size: 0.45em;
+      color: #cccccc; }
+    .blogList time .blogday {
+      width: 38px;
+      display: inline-block;
+      margin-left: 48px;
+      color: #cccccc; }
+  .blogList h2 {
+    float: left;
+    color: white;
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px; }
+  .blogList .blogListContent {
+    margin-left: 6em;
+    text-indent: 2em;
+    font-size: 14px;
+    color: #cccccc;
+    padding: 3px 0; }
+  .blogList footer {
+    overflow: hidden; }
+    .blogList footer span {
+      float: left;
+      margin-left: 15px; }
+  .blogList .noarticle {
+    text-align: center;
+    padding: 20px 0;
+    color: white; }
+
+.blogpages {
+  padding: 5px;
+  text-align: right; }
+  .blogpages a {
+    display: inline-block;
+    padding: 3px 5px;
+    margin: 0 3px;
+    color: #eeeeee;
+    text-decoration: none; }
+  .blogpages a.blogpagescurrent {
+    background: rgba(0, 0, 0, 0.3);
+    color: #999999; }
